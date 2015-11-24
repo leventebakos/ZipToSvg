@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<zips>
+	<record>
+		<zip>10</zip>
+		<latitude>50</latitude>
+		<longitude>50</longitude>
+		<city>city</city>
+		<state>aa</state>
+		<county>county</county>
+		<zip-class>UNIQUE</zip-class>
+	</record>
+</zips>
