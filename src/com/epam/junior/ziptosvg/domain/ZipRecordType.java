@@ -9,13 +9,12 @@
 package com.epam.junior.ziptosvg.domain;
 
 import java.math.BigDecimal;
+
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
-
-import com.epam.junior.ziptosvg.utils.HtmlUtils;
 
 
 /**
@@ -232,27 +231,16 @@ public class ZipRecordType {
         this.zipClass = value;
     }
     
-    public String createCircleTag(String color) {
-    	if (latitude == null || longitude == null) {
-    		return "";
-    	}
+    public String getCY() {
+    	if (latitude == null) return "";
     	
-		StringBuilder sb = new StringBuilder();
-		sb.append(HtmlUtils.printIdentation(3) + "<circle cy=\"");
-		sb.append(getCY());
-		sb.append("\" cx=\"");
-		sb.append(getCX());
-		sb.append("\" fill=\"" + color + "\" r=\"1\"/>" + System.lineSeparator());
-    	
-    	return sb.toString();
-    }
-    
-    private BigDecimal getCY() {
-    	return _800.subtract(latitude.multiply(_10));
+    	return _800.subtract(latitude.multiply(_10)).toPlainString();
 	}
 
-	private BigDecimal getCX() {
-		return (longitude.multiply(_10)).add(_2000);
+	public String getCX() {
+		if (longitude == null) return "";
+		
+		return (longitude.multiply(_10)).add(_2000).toPlainString();
 	}
 
 }
