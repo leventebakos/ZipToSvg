@@ -1,4 +1,4 @@
-package com.epam.junior.zip_to_svg.utils;
+package com.epam.junior.ziptosvg.utils;
 
 import java.util.HashMap;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.List;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.epam.junior.zip_to_svg.domain.ZipRecordType;
+import com.epam.junior.ziptosvg.domain.ZipRecordType;
 
 public class HtmlUtils {
 	

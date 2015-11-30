@@ -1,4 +1,4 @@
-package com.epam.junior.zip_to_svg.utils;
+package com.epam.junior.ziptosvg.utils;
 
 import java.io.InputStream;
 import java.util.List;
@@ -13,9 +13,9 @@ import javax.xml.stream.XMLStreamException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.epam.junior.zip_to_svg.domain.ObjectFactory;
-import com.epam.junior.zip_to_svg.domain.ZipListType;
-import com.epam.junior.zip_to_svg.domain.ZipRecordType;
+import com.epam.junior.ziptosvg.domain.ObjectFactory;
+import com.epam.junior.ziptosvg.domain.ZipListType;
+import com.epam.junior.ziptosvg.domain.ZipRecordType;
 
 public class XmlParser {
 	

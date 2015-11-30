@@ -6,4 +6,4 @@
 //
 
 @javax.xml.bind.annotation.XmlSchema(namespace = "http://www.epam.com/training/zip", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
-package com.epam.junior.zip_to_svg.domain;
+package com.epam.junior.ziptosvg.domain;

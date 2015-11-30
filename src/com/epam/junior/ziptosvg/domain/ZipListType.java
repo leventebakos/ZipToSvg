@@ -6,7 +6,7 @@
 //
 
 
-package com.epam.junior.zip_to_svg.domain;
+package com.epam.junior.ziptosvg.domain;
 
 import java.util.ArrayList;
 import java.util.List;

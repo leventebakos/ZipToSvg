@@ -6,7 +6,7 @@
 //
 
 
-package com.epam.junior.zip_to_svg.domain;
+package com.epam.junior.ziptosvg.domain;
 
 import java.math.BigDecimal;
 import javax.xml.bind.annotation.XmlAccessType;
@@ -15,7 +15,7 @@ import javax.xml.bind.annotation.XmlElement;
 import javax.xml.bind.annotation.XmlSchemaType;
 import javax.xml.bind.annotation.XmlType;
 
-import com.epam.junior.zip_to_svg.utils.HtmlUtils;
+import com.epam.junior.ziptosvg.utils.HtmlUtils;
 
 
 /**

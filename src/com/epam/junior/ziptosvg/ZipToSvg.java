@@ -1,4 +1,4 @@
-package com.epam.junior.zip_to_svg;
+package com.epam.junior.ziptosvg;
 
 import java.io.FileWriter;
 import java.io.IOException;
@@ -11,9 +11,9 @@ import javax.xml.stream.XMLStreamException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.epam.junior.zip_to_svg.domain.ZipRecordType;
-import com.epam.junior.zip_to_svg.utils.HtmlUtils;
-import com.epam.junior.zip_to_svg.utils.XmlParser;
+import com.epam.junior.ziptosvg.domain.ZipRecordType;
+import com.epam.junior.ziptosvg.utils.HtmlUtils;
+import com.epam.junior.ziptosvg.utils.XmlParser;
 
 public class ZipToSvg {
 
